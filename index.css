@@ -1,0 +1,104 @@
+/* navbar style is has been here  */
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+#navbar{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid black; */
+    margin-bottom: 40px;
+
+}
+
+.fa-grip-lines{
+    margin-left: 10px;
+}
+#youtubelogo{
+    width: 150px;
+    height: 70px;
+    margin-left: 20px;
+}
+
+#div2{
+    padding-top: 25px;
+    width: 50%;
+    padding-left:200px ;
+    /* border: 1px solid red; */
+}
+#query{
+    padding: 10px 100px;
+}
+#Sbutton{
+    padding: 10px 15px;
+}
+.fa-magnifying-glass{
+    font-size: 15px;
+
+}
+.fa-microphone{
+    background-color: #ece6e6;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 18px;
+    margin-left: 10px;  cursor: pointer;
+
+}
+#Sort{
+    padding: 10px 15px;
+}
+#div3{
+    display: flex;
+    /* border: 1px solid fuchsia; */
+    width: 25%;
+    padding-top: 25px;
+    padding-left: 150px;
+}
+
+
+.fa-bell{
+    font-size: 22px;
+    padding-top: 12px;
+    color: black;
+    cursor: pointer;
+    
+
+}
+.fa-video{
+    font-size: 22px;
+    padding-top: 12px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.fa-table-cells{
+    font-size: 22px;
+    padding-top: 12px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#fal{
+    
+    height: 40px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;  
+    width: 80%;
+    /* border: 1px solid black; */
+    margin: auto;
+   
+}
+
+.Diva{
+    width: 100%;
+}
